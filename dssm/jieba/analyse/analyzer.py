@@ -17,7 +17,7 @@ STOP_WORDS = frozenset(('a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'can',
                         u'（', u'）', u'！', u'，', u'。', u'？', u'～', u'－',u'+', u'／', u'?',
                         u'】', u'【', u'＝',u' ',u'‘',u'’',u'…',u'［',u'］',u'＿',u'＋',u'＂',
                         u'〈', u'〉',
-                        u'“', u'”', u'＃', u'％', u'．', u'：', u'；', u'＜', u'＞', u'＊'))
+                        u'“', u'”', u'＃', u'％', u'．', u'：', u'；', u'＜', u'＞', u'＊',u'测试'))
 
 accepted_chars = re.compile(ur"[\u4E00-\u9FA5]+")
 
