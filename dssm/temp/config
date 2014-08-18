@@ -1,0 +1,31 @@
+[DEFAULT]
+rmls_dir:/home/wangshuxin/rmls
+corpus_dir:/home/wangshuxin/app_search
+src_dir:/home/wangshxin/rmls/src
+
+[bm25]
+corpus=/home/wangshuxin/app_info.mp
+titleIndex=../IndexDir/titleIndex
+MulFieldsIndex=../IndexDir/MulFieldsIndex
+TestQuery=/home/wangshuxin/app_search/label_data/label_from_log.txt
+recall_results=../results/recall_results
+bm25_results=../results/bm25_results
+
+[rmls]
+dictionary = %(rmls_dir)s/Dictionary/dictionary
+wasted_dictionary = %(rmls_dir)s/Dictionary/wasted_dictionary
+operLog =  /home/wangshuxin/operLog
+train.set = /home/wangshuxin/rmls/train.set
+WFile=../WNDir/W.txt.npz
+NFile=../WNDir/N.txt.npz
+LxFile=../LxLyDir/Lx.txt.npz
+LyFile=../LxLyDir/Ly.txt.npz
+rmls_results=../results/rmls_results
+dx=20134
+dy=20134
+d=100
+beta=0.0001
+gamma=0.0001
+converge_threshhold=0.1
+thetax=1
+thetay=1
