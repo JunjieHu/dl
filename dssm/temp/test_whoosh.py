@@ -61,3 +61,8 @@ for keyword in (u"水果世博园",u"你",u"first",u"中文",u"交换机",u"交�
 
 for t in analyzer(u"测试我的好朋友是李明;我爱北京天安门;IBM和Microsoft; I have a dream. this is intetesting and interested me a lot"):
     print t.text
+    print type(t.text)
+    print type(t.text.encode('utf8'))
+res = analyzer(u"测试我的好朋友是李明;我爱北京天安门;IBM和Microsoft; I have a dream. this is intetesting and interested me a lot")
+print type(res)
+print res
